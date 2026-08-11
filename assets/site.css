@@ -77,7 +77,7 @@ footer{padding:54px 0;background:var(--dark);color:white}.footer-grid{display:gr
 }
 @media(max-width:600px){.container{width:min(var(--max),calc(100% - 26px))}.hero{padding:70px 0 54px}.grid3,.grid4{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.feature{padding:26px}.profile-art{height:220px}}
 
-.profile-photo{width:100%;height:330px;object-fit:cover;object-position:center 22%;border-radius:18px}
+.profile-photo{width:100%;height:330px;object-fit:cover;object-position:center 8%;border-radius:18px}
 .pi-photo{width:100%;max-width:390px;border-radius:22px;object-fit:cover;box-shadow:0 18px 55px rgba(40,30,25,.10)}
 .pi-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:46px;align-items:center}
 .person-photo{width:100%;height:240px;object-fit:cover;object-position:center top;background:#f4f1ed}
@@ -87,3 +87,53 @@ footer{padding:54px 0;background:var(--dark);color:white}.footer-grid{display:gr
 .innovation h3{font-size:30px;margin:8px 0 12px}
 .innovation .tag{font-size:12px;text-transform:uppercase;letter-spacing:.11em;color:var(--maroon);font-weight:900}
 @media(max-width:900px){.pi-grid,.photo-feature{grid-template-columns:1fr}.pi-photo{max-width:460px}.person-photo{height:300px}}
+
+.career-logo-card{
+  background:#fff;
+  border-radius:22px;
+  padding:22px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  box-shadow:0 12px 35px rgba(0,0,0,.12);
+}
+.career-logo{width:100%;max-width:330px;height:auto;display:block}
+
+.shi-meaning{
+  margin:0 0 28px;padding:15px 18px;border-left:4px solid var(--gold);
+  background:rgba(255,255,255,.72);color:#4f5559;font-size:15px;max-width:760px;
+}
+.shi-meaning strong:first-child{color:var(--maroon);letter-spacing:.06em}
+
+.project.ongoing{border:2px solid rgba(80,18,20,.20);border-left:6px solid var(--maroon);position:relative}
+.status{display:inline-block;margin-bottom:12px;padding:6px 10px;border-radius:999px;background:var(--maroon);color:#fff;font-size:11px;line-height:1;font-weight:900;letter-spacing:.08em;text-transform:uppercase}
+.project-icon{
+  width:52px;height:52px;border-radius:14px;background:#f3ead7;color:var(--maroon);
+  display:flex;align-items:center;justify-content:center;font-size:29px;font-weight:800;margin-bottom:16px;
+  border:1px solid rgba(80,18,20,.10)
+}
+.project.ongoing h3{margin-top:10px}
+
+.alumni-groups{display:grid;gap:38px}
+.alumni-group>h3{font-size:22px;color:var(--maroon);padding-bottom:10px;border-bottom:2px solid var(--gold);margin:0 0 14px}
+.alumni-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.alumni-item{padding:18px 20px;border:1px solid var(--line);border-radius:14px;background:#fff}
+.alumni-item strong{display:block;font-size:16px}
+.alumni-item span{display:block;margin-top:3px;color:var(--muted);font-size:13px}
+.alumni-item p{margin:7px 0 0;color:var(--muted);font-size:13px}
+@media(max-width:700px){.alumni-list{grid-template-columns:1fr}}
+
+/* Alumni spacing refinement */
+.alumni-item strong{
+  display:block;
+  margin-bottom:7px;
+}
+.alumni-item span{
+  display:block;
+  margin-top:0;
+  line-height:1.35;
+}
+.alumni-item p{
+  margin:3px 0 0;
+  line-height:1.35;
+}
