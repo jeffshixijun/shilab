@@ -123,17 +123,19 @@ footer{padding:54px 0;background:var(--dark);color:white}.footer-grid{display:gr
 .alumni-item p{margin:7px 0 0;color:var(--muted);font-size:13px}
 @media(max-width:700px){.alumni-list{grid-template-columns:1fr}}
 
-/* Alumni spacing refinement */
-.alumni-item strong{
-  display:block;
-  margin-bottom:7px;
+.pi-bio{
+  margin-top:32px;
+  padding-top:26px;
+  border-top:1px solid var(--line);
 }
-.alumni-item span{
-  display:block;
-  margin-top:0;
-  line-height:1.35;
+.pi-bio h3{
+  font-size:24px;
+  margin:0 0 14px;
+  color:var(--maroon);
 }
-.alumni-item p{
-  margin:3px 0 0;
-  line-height:1.35;
+.pi-bio p{
+  margin:0 0 15px;
+  color:var(--muted);
+  line-height:1.72;
 }
+.pi-bio a{font-weight:700}
