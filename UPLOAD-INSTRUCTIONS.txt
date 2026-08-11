@@ -1,0 +1,25 @@
+SHI Lab consolidated website update
+
+This package includes all changes requested in the recent website revisions.
+
+For the simplest update:
+1. Open the GitHub repository: jeffshixijun/shilab
+2. Upload/replace ALL files and folders from this package at the repository root.
+3. Keep index.html at the repository root.
+4. Commit the changes.
+5. GitHub Pages will redeploy automatically.
+
+Included changes:
+- Homepage headline: Engineering materials for sustainable infrastructure.
+- SHI = Sustainable, High-Performance Infrastructure, with connection to Dr. Shi's last name.
+- $15M+ external funding as PI or Co-PI.
+- Homepage headshot framing adjusted to show more of the top of the portrait.
+- NSF CAREER graphic.
+- Google Scholar links on homepage and Publications page.
+- Professional email standardized to xijun.shi@txstate.edu.
+- Ongoing projects highlighted first with visual icon cards.
+- Full supplied funded-project list split into ongoing and completed projects.
+- Former group members/alumni added to People page.
+- Circle Concrete Tech technology/innovation link.
+- Current team portraits and novel concrete-products image retained.
+- No SHI logo added, per final preference.
